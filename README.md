@@ -2,7 +2,7 @@
 
 > **IEEE SMC 2026 Submission — Code Repository Private**
 >
-> This repository is a **public showcase** of the architecture, methodology, and benchmark results from our paper currently under double-blind peer review at **IEEE SMC 2026**. The full source code and model weights are held in a private repository and will be released upon acceptance and publication. For academic collaboration or access inquiries, please see the [Contact](#contact) section below.
+> This repository is a **public showcase** of the architecture, methodology, and benchmark results from our paper currently under double-blind peer review at **IEEE SMC 2026**. The full source code and model weights are held in a private repository and will be released upon acceptance and publication.
 
 ---
 
@@ -123,7 +123,7 @@ Graph Spectral Filter  ──►  Channel (SE) Attention
 
 ### Architecture Pipeline
 
-> `[Insert Figure 1: Architecture Pipeline here]`
+> <img width="1448" height="349" alt="architecture (1)" src="https://github.com/user-attachments/assets/b0e151e1-2442-4a96-bfab-24541c53ea08" />
 >
 > *The complete end-to-end TAM-xLSTM pipeline: raw EEG passes through bandpass filtering and graph spectral encoding, followed by squeeze-and-excitation channel reweighting, multi-scale convolution, dual-timescale recurrent branches, and attention pooling before the final classifier. Residual projection paths connect the shared input features to each LSTM branch for training stability.*
 
@@ -131,7 +131,9 @@ Graph Spectral Filter  ──►  Channel (SE) Attention
 
 ### Spatial Interpretability — Channel Importance
 
-> `[Insert Figure 2: Channel Importance (BCIC-IV-2a) here]`
+> <img width="1247" height="822" alt="channel_importance" src="https://github.com/user-attachments/assets/64896ee2-808a-4d5b-9258-4d9a46c8a243" />
+
+
 >
 > *Channel-level importance weights learned from checkpoint parameters. Motor cortex channels (CP4, C4, Cz) receive significantly higher importance weights than non-motor regions. Quantitatively: **motor cortex mean importance = 0.603** vs. **non-motor mean = 0.397** — a near-60/40 split consistent with the known neurophysiology of motor imagery, achieved without any anatomical supervision signal.*
 
@@ -139,7 +141,8 @@ Graph Spectral Filter  ──►  Channel (SE) Attention
 
 ### Temporal Interpretability — Saliency Map
 
-> `[Insert Figure 6: Temporal Saliency Map (BCIC-IV-2a) here]`
+> <img width="2084" height="882" alt="temporal_saliency" src="https://github.com/user-attachments/assets/e6e1279c-61fb-4493-902f-b6c03a48ce29" />
+
 >
 > *Attention-derived temporal saliency over a representative motor imagery trial. A sharp peak at **cue onset (~0.5 s)** confirms rapid response to the imagery trigger. Saliency then rises and sustains at **0.8–1.0** through the motor imagery period, peaking near **t = 2.42 s**, before declining post-imagery. The model concentrates discriminative computation in the physiologically relevant window — not uniformly across the trial — with no supervision on timing.*
 
@@ -147,7 +150,7 @@ Graph Spectral Filter  ──►  Channel (SE) Attention
 
 ### Dual-Timescale Gate Dynamics
 
-> `[Insert Figure 4: Fast/Slow Gate Dynamics (BCIC-IV-2a) here]`
+> <img width="2082" height="1197" alt="gate_dynamics" src="https://github.com/user-attachments/assets/eb367f8c-af6a-4fa3-a181-82b622f789fa" />
 >
 > *Temporal evolution of input and forget gates for the fast (stride = 1) and slow (stride = 4) branches. The fast branch shows high-frequency, volatile gate activity tracking transient EEG fluctuations. The slow branch shows a smooth, gradual trajectory integrating sustained contextual dynamics. This complementary behaviour is an emergent property of the dual-stride design — the two branches do not redundantly encode the same information.*
 
@@ -216,8 +219,8 @@ This work is an honest step forward, not a final answer. Current limitations inc
 This project is affiliated with the **Human-AI Interaction (HAIx) Lab, IIT Gandhinagar, India**.
 
 For questions about the methodology, potential collaborations, or early access to the codebase for academic purposes, feel free to reach out:
-
-- **Soham Shrivastava** (First Author) — [[LinkedIn]](https://www.linkedin.com/in/YOUR_HANDLE) · [[Email]](mailto:YOUR_EMAIL@iitgn.ac.in)
+- **Shivansh Shukla** (First Author) - [[LinkedIn]](https://www.linkedin.com/in/shivansh-shukla-00242028b/) . [[Email]](shivansh.shukla@iitgn.ac.in)
+- **Soham Shrivastava** (First Author) — [[LinkedIn]](https://www.linkedin.com/in/soham-shrivastava) · [[Email]](mailto:soham.shrivastava@iitgn.ac.in)
 - **Prof. Yogesh Kumar Meena** (Corresponding Author) — [yk.meena@iitgn.ac.in](mailto:yk.meena@iitgn.ac.in)
 
 > *Recruiters and industry researchers are welcome to reach out for technical discussions. A live demo and full codebase will be published upon paper acceptance.*
