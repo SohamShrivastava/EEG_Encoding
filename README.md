@@ -219,8 +219,8 @@ This work is an honest step forward, not a final answer. Current limitations inc
 This project is affiliated with the **Human-AI Interaction (HAIx) Lab, IIT Gandhinagar, India**.
 
 For questions about the methodology, potential collaborations, or early access to the codebase for academic purposes, feel free to reach out:
-- **Shivansh Shukla** (First Author) - [[LinkedIn]](https://www.linkedin.com/in/shivansh-shukla-00242028b/) . [[Email]](shivansh.shukla@iitgn.ac.in)
-- **Soham Shrivastava** (First Author) — [[LinkedIn]](https://www.linkedin.com/in/soham-shrivastava) · [[Email]](mailto:soham.shrivastava@iitgn.ac.in)
+- **Shivansh Shukla** (First Author) - [[LinkedIn]](https://www.linkedin.com/in/shivansh-shukla-00242028b/) . [Email](mailto:shivansh.shukla@iitgn.ac.in)
+- **Soham Shrivastava** (First Author) — [[LinkedIn]](https://www.linkedin.com/in/soham-shrivastava) · [Email](mailto:soham.shrivastava@iitgn.ac.in)
 - **Prof. Yogesh Kumar Meena** (Corresponding Author) — [yk.meena@iitgn.ac.in](mailto:yk.meena@iitgn.ac.in)
 
 > *Recruiters and industry researchers are welcome to reach out for technical discussions. A live demo and full codebase will be published upon paper acceptance.*
