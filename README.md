@@ -223,7 +223,6 @@ For questions about the methodology, potential collaborations, or early access t
 - **Soham Shrivastava** (First Author) — [[LinkedIn]](https://www.linkedin.com/in/soham-shrivastava) · [Email](mailto:soham.shrivastava@iitgn.ac.in)
 - **Prof. Yogesh Kumar Meena** (Corresponding Author) — [yk.meena@iitgn.ac.in](mailto:yk.meena@iitgn.ac.in)
 
-> *Recruiters and industry researchers are welcome to reach out for technical discussions. A live demo and full codebase will be published upon paper acceptance.*
 
 ---
 
