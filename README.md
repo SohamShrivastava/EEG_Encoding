@@ -125,7 +125,7 @@ Graph Spectral Filter  ──►  Channel (SE) Attention
 
 > <img width="1448" height="349" alt="architecture (1)" src="https://github.com/user-attachments/assets/b0e151e1-2442-4a96-bfab-24541c53ea08" />
 >
-> *The complete end-to-end TAM-xLSTM pipeline: raw EEG passes through bandpass filtering and graph spectral encoding, followed by squeeze-and-excitation channel reweighting, multi-scale convolution, dual-timescale recurrent branches, and attention pooling before the final classifier. Residual projection paths connect the shared input features to each LSTM branch for training stability.*
+> *The complete end-to-end TAM-xLSTM pipeline: raw EEG passes through the bandpass filtering and graph spectral encoding, followed by squeeze-and-excitation channel reweighting, multi-scale convolution, dual-timescale recurrent branches, and attention pooling before the final classifier. Residual projection paths connect the shared input features to each LSTM branch for training stability.*
 
 ---
 
